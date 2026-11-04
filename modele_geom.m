@@ -20,7 +20,8 @@ x0 = l1*cos(t_1) + l2*cos(t_12) + l3*cos(t_123);
 y0 = l_0 + l1*sin(t_1) + l2*sin(t_12) + l3*sin(t_123);
 a0 = t_123 - pi/2;
 
-dx = x0 - xc;  dy = y0 - yc;
+dx = x0 - xc;
+dy = y0 - yc;
 xm = cos(ac)*dx + sin(ac)*dy;
 ym = -sin(ac)*dx + cos(ac)*dy;
 am = a0 - ac;
